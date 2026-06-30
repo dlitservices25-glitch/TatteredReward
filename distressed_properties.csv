@@ -1,0 +1,6 @@
+address,postcode,owner_name,source_type,signal_type,severity_score
+12 High St,EH1 1AA,John Smith,probate,death_notice,8
+45 Oak Ln,M1 4BT,Sarah Jones,insolvency,bankruptcy_notice,9
+88 West End,W1 2CC,Alan Brown,vacancy,long_term_void,5
+102 Station Rd,CF1 1DD,Emily White,lpa,receivership,10
+5 Pine Way,BT1 1EE,Mark Taylor,direct,mortgage_arrears,7
