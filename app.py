@@ -1,4 +1,5 @@
 import streamlit as st
+from PIL import Image
 import pandas as pd
 from db_manager import ingest_distressed_data, get_matching_investors, get_hottest_deals, update_property_status
 
@@ -9,6 +10,13 @@ if 'logged_in' not in st.session_state:
     st.session_state.logged_in = False
 
 def main():
+    im = Image.open("favicon.ico")
+    st.set_page_config(
+      page_title="Hello",
+      page_icon=im,
+      layout="wide",
+    )
+
     if not st.session_state.logged_in:
         # --- AUTHENTICATION PAGE ---
         st.title("Login / Sign Up")
